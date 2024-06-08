@@ -1,10 +1,9 @@
-# HTML :
+## HTML :
 
 - HTML stands for Hypertext Markup Language
 - It's used to create web pages,
 - HTML defines the structure of a web page.
-- HTML is made up of elements, a series of elements are used to define different parts of a
-  web page.
+- HTML is made up of elements, a series of elements are used to define different parts of a web page.
 
 ## History :
 
@@ -12,44 +11,26 @@
 
 ## Generate HTML Snippet :
 
-- Press shift + !
-- <opening tag>
-- </closing tag>
-- <!DOCTYPE html> - Document type
+Press shift + !
+
+## HTML tags:
+
+```js
+</closing tag>
+
+- <Doctype html> - Document type
 - <html> - Root element
 - <head> - Head section(meta contents links)
 - <title> - Title of the page
 - <body> - Body section(heading,paragraph,images,links,heade,footer)
-
-## Headings :
-
-- <h1> ... <h6>
-- <h1> -- Top priority
-- <h6> -- Least priority
-- <h1> content </h1>
-
-## Pragraph :
-
-- <p> contents </p>
-- lorem100
-
-## Links :
-
-- To re-direct the specified link given(anchor tag)
-- <a href="https://www.google.com">Google</a>
-- <a href="mailto:example@example.com">Email</a>
-- <a href="tel:1234567890">Phone Number</a>
-
-## Images :
-
-- <img src="image.jpg" alt="image description">
-- src - source path
-- alt - alternative text
-
-## Break the line :
-
-- <br> - To break the line we use <br> tag
-
+<html>
+ represents the root of an HTML document
+ <a>
+ It is termed as anchor tag and it creates a hyperlink or link.
+ <b>
+  It is used to make a text bold.
+ <br>
+ It is used to break the line.
  <button>
   It is used to represent a clickable button.
  <div>
@@ -88,3 +69,39 @@
   It is used for styling and grouping inline.
  <style>
   It is used to contain style information for an HTML document
+
+```
+
+## Headings :
+
+```js
+
+- <h1> ...<h6>
+- <h1>-- Top priority
+- <h6>-- Least priority
+- <h1> content </h1>
+- <p> - Pragraph
+- <p> contents </p>
+- lorem100
+```
+
+## Links :
+
+To re-direct the specified link given(anchor tag) <a>
+Google
+Email
+Phone Number
+
+## Images :
+
+image description
+src - source path
+alt - alternative text
+
+## Break the line :
+
+```js
+
+- To break the line we use
+  </br> tag
+```
