@@ -1,0 +1,49 @@
+html {
+    font-size: 16px;
+}
+body {
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdybKQ-zarGxug7pRnjPVL5tSJ-lJS0YMgbw&s) ;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-family: "spicy Rice",serif;
+    font-weight: 400;
+    font-style: normal;
+    color: darkblue;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+.typography {
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: darkblue;
+    position: absolute;
+    top: 50%;
+    text-shadow: blue 0px 0px 39px;
+    animation: typo 5s infinite;
+    font-family: "spice Rice",serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.typography::after{
+content:"🌼" ;
+}
+.typography::before{
+    content: "🌼";
+}
+@keyframes typo{
+    0% {
+        left: 0;
+        color: darkblue;
+    }
+    50% {
+        left: calc(100% -200px);
+        color: brown;
+    }
+    100% {
+        left: 0;
+        color: darkblue;
+    }
+}

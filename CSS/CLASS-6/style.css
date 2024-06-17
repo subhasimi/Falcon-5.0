@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+button{
+    padding: 10px 30px;
+    top: 300px;
+    left: 500px;
+    display: block;
+    font-size: 30px;
+    background-color: rgb(135, 17, 245);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    border-bottom:5px solid purple;
+    transition: 2s ease-in-out;
+}
+button:hover {
+    background-color: purple;
+    transform: scale(1.5);
+    transform: rotate(360deg);
+    cursor: pointer;
+}
