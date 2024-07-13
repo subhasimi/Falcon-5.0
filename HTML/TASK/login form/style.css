@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: violet;
+}
+.cont{
+    height: 450px;
+    width: 450px;
+    background-color: white;
+    padding: 25px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    
+    
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.btn{
+    background-color:rgb(255, 77, 0);
+    text-align: center;
+    color: white;
+    
+
+}
+input{
+    width: 70%;
+    height: 30px;
+    border:2px solid rgb(75 73 73)
+    margin-bottom: 30px;
+}
+
+p{
+    text-align: start;
+    margin-left: 68px;
+   
